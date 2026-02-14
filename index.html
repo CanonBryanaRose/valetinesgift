@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine's Surprise</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/flower.png" type="image/x-icon">
+</head>
+<body>
+  <div class="stars"></div>
+  <div class="stars2"></div>
+  <div class="stars3"></div>
+  
+  <!-- Transition overlay -->
+  <div class="transition-overlay" id="transitionOverlay">
+    <div class="hearts-container">
+      <div class="heart-transition"></div>
+      <div class="heart-transition"></div>
+      <div class="heart-transition"></div>
+      <div class="heart-transition"></div>
+      <div class="heart-transition"></div>
+    </div>
+    <div class="transition-text">Loading your gift...</div>
+  </div>
+  
+  <div class="container" id="mainContainer">
+    <div class="gift-box">
+      <div class="gift-icon">🎁</div>
+      <h1 class="title">Click to view your<br>Valentine's Gift</h1>
+      <button class="view-gift-btn" id="viewGiftBtn">
+        <span class="btn-text">Open Gift</span>
+        <span class="sparkle">✨</span>
+      </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
